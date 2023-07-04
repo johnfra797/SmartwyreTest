@@ -10,9 +10,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Readme.md = Readme.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smartwyre.DeveloperTest.Runner", "Smartwyre.DeveloperTest.Runner\Smartwyre.DeveloperTest.Runner.csproj", "{9C165761-CB14-4120-9DF7-D2BCF0F8225C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smartwyre.DeveloperTest.Runner", "Smartwyre.DeveloperTest.Runner\Smartwyre.DeveloperTest.Runner.csproj", "{9C165761-CB14-4120-9DF7-D2BCF0F8225C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smartwyre.DeveloperTest.Tests", "Smartwyre.DeveloperTest.Tests\Smartwyre.DeveloperTest.Tests.csproj", "{579DD8AE-7BEA-45BC-B46A-FE9F071BFDE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smartwyre.DeveloperTest.Tests", "Smartwyre.DeveloperTest.Tests\Smartwyre.DeveloperTest.Tests.csproj", "{579DD8AE-7BEA-45BC-B46A-FE9F071BFDE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smartwyre.Data", "Smartwyre.Data\Smartwyre.Data.csproj", "{0DE6068E-49EC-4BD8-813A-CBE7974B9676}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smartwyre.API", "Smartwyre.API\Smartwyre.API.csproj", "{48494F2A-79FF-46E4-9705-32CA3F0FCFB1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +36,14 @@ Global
 		{579DD8AE-7BEA-45BC-B46A-FE9F071BFDE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{579DD8AE-7BEA-45BC-B46A-FE9F071BFDE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{579DD8AE-7BEA-45BC-B46A-FE9F071BFDE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DE6068E-49EC-4BD8-813A-CBE7974B9676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE6068E-49EC-4BD8-813A-CBE7974B9676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE6068E-49EC-4BD8-813A-CBE7974B9676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE6068E-49EC-4BD8-813A-CBE7974B9676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48494F2A-79FF-46E4-9705-32CA3F0FCFB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48494F2A-79FF-46E4-9705-32CA3F0FCFB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48494F2A-79FF-46E4-9705-32CA3F0FCFB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48494F2A-79FF-46E4-9705-32CA3F0FCFB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
